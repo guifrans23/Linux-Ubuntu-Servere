@@ -1,0 +1,14 @@
+Linux Server (arquivos necessários)
+ links:
+    instalação e configuração do Firewall pfSense:
+            https://nyifiles.netgate.com/mirror/downloads/pfSense-CE-2.5.2-RELEASE-amd64.iso.gz
+    Oracle Virtual Box:
+            https://www.virtualbox.org/
+    Ubuntu Server 20.04.3 LTS Focal:
+            https://releases.ubuntu.com/20.04/
+    Ubuntu Server 20.04.3 LTS Focal(links direto):
+            https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
+    UCS Univention Core Free:
+            https://www.univention.com/downloads/download-ucs/
+    Linux Mint 20.3 Una Cinnamon:
+            http://mint.c3sl.ufpr.br/stable/20.3/linuxmint-20.3-cinnamon-64bit.iso
