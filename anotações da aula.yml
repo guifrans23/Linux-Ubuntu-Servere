@@ -1,0 +1,61 @@
+Anotações da Aula:
+  #02_ aula UC-6: Instalação e Configuração do GNU/Linux Ubuntu Server (Continuação)
+  Nessa segunda aula, vamos conhecer os procedimentos básicos instalar a versão de Firewall pfSense e a versão do 
+  Linux Mint, fazer as configurações básicas no console e via webgui, testar as conexões com o mint e clientes microsoft.
+
+    Link do material das aulas: https://github.com/vaamonde/pfsense
+  
+    Caso você ainda não fez o Download e Instalação do Microsoft Teams no seu computador, acesse o Site da Microsoft: 
+    https://www.microsoft.com/pt-br/microsoft-365/microsoft-teams/download-app
+    
+    Se você possui Smartphone Android, acesse o Google Play: 
+    https://play.google.com/store/apps/details?id=com.microsoft.teams&hl=pt_BR
+    
+    Se você possui Smartphone Apple iOS, acesse o App Apple: 
+    https://apps.apple.com/br/app/microsoft-teams/id1113153706
+    
+    Recomendamos você utilizar a Conta Acadêmica do SENAC, conforme abaixo:
+    
+    Primeiro: Acesse o Portal do Aluno do SENAC: https://www.sp.senac.br/login/Login
+    Segundo: Digite o seu e-mail e senha que você utilizou para fazer o cadastro no site;
+    Terceiro: Localize o QUADRO AZUL: "REDE EDUCACIONAL: depois do Quadro: Avisos Gerais, seu usuário está na COR VERMELHA;
+    Quarto: para se Logar no Teams (Desktop ou Smartphone), utilize o seu usuário + @senacsp.edu.br 
+    (Exemplo: vaamonde@senacsp.edu.br), a senha é a mesma utilizada no Portal do Aluno.
+
+  Imagem:(Linux server img (1)) https://senacspedu.sharepoint.com/:i:/s/Section_sec_39189900184678/EUWCmBKrJH5EuogtoIjWn6kB-DlObLSAjKAu-le0XS0YGQ
+  Firewall pfSense = FreeBSd
+  pfSense + Linux Mint
+
+  Primeira Etapa: Criação da VM - pfSense:
+    Imagem(Linux server img (2):https://senacspedu.sharepoint.com/:i:/s/Section_sec_39189900184678/ET9nu8DxFSFDk6vhRk9UsVsBgz4ojSnJz0uIwNDgfuUs4w
+    Imagem(Linux server img (3):https://senacspedu.sharepoint.com/:i:/s/Section_sec_39189900184678/ES7jHZFyozNGnZA6pcoKw-EBUTPOho9qAXbgQfrUuZwRXQ
+    Imagem(Linux server img (4):https://senacspedu.sharepoint.com/:i:/s/Section_sec_39189900184678/EXJxamS60AVMmjBsObfB2E8B3-2V54SoyZHNx5Q-8D4vdQ
+    Imagem(Linux server img (5):https://senacspedu.sharepoint.com/:i:/s/Section_sec_39189900184678/EZ2FFwK7581KodI_-FK7JYABsk6tNt800EAgJts6QT0Hjw
+    Imagem(Linux server img (6):https://senacspedu.sharepoint.com/:i:/s/Section_sec_39189900184678/EcdOVt0kdhBFoVGXe9a3rXwBMDejo3ngFiwle0xZVYrPKg
+    Imagem(Linux server img (7):https://senacspedu.sharepoint.com/:i:/s/Section_sec_39189900184678/EZ_u2WpiltdPkjjfdMK1zmQBXK6pR-1hdswLX3P83l-jug
+    Firewall precisa de Duas Placas de Rede
+    SEndo: 1 (uma) WAN - Internet - 1 (uma) LAN - Rede Local
+    Imagem(Linux server img (8):https://senacspedu.sharepoint.com/:i:/s/Section_sec_39189900184678/ETaGNddKRKNKohLHeOs7GE8B_uYy2rXoT7LLuKbbdH0mAg 
+    Imagem(Linux server img (9):https://senacspedu.sharepoint.com/:i:/s/Section_sec_39189900184678/EccF9PJQBZJIi-Tz2_bWFj8Bw9wt8MePUkgHW0_dGjateQ
+  github/vaamonde/pfsense:
+    https://github.com/vaamonde/pfsense
+  github/vaamonde/pfsense/blob/main/script/Etapa-001-InstalacaoDopfSense-2.5.txt
+    https://github.com/vaamonde/pfsense/blob/main/script/Etapa-001-InstalacaoDopfSense-2.5.txt
+  github.com/vaamonde/pfsense/blob/main/script/Etapa-002-ConsoleDopfSense.txt
+    https://github.com/vaamonde/pfsense/blob/main/script/Etapa-002-ConsoleDopfSense.txt
+  pfSense: IPv4: 172.16.1.254
+  CID: 24 (Mask 255.255.255.0)
+  github/vaamonde/pfsense/blob/main/script/Etapa-003-WebconfiguratorDopfSense.txt
+    https://github.com/vaamonde/pfsense/blob/main/script/Etapa-003-WebconfiguratorDopfSense.txt
+  Username: admin
+  Password: pfsense
+  NTP Server: a.st1.ntp.br
+    https://ntp.br/
+  github.com/vaamonde/pfsense/blob/main/script/Etapa-004-ConfiguracoesDoDashboard.txt
+    https://github.com/vaamonde/pfsense/blob/main/script/Etapa-004-ConfiguracoesDoDashboard.txt
+  
+
+
+
+
+
