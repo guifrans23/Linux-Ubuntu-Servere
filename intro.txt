@@ -1,0 +1,59 @@
+IPv4: 172.16.10.0/24
+
+dominio: guifrans.intra
+pfsense: firewall | 172.16.10.254/24
+ubuntu: webserver | 172.16.10.20/24
+windows: srvguifrans | 172.16.10.10/24
+
+IPv4 professor: 172.16.100.0/24
+Vaamonde: vaamonde.intra
+Leandro: guifrans.intra
+
+------------------------------------------------------
+
+webserver ubuntu:
+
+IPv4:
+Manual
+subnet: 172.16.10.0/24
+address: 172.16.10.20
+gateway: 172.16.10.254
+
+name server: 172.16.10.254
+search domain: guifrans.intra
+
+name: usuario admin
+server name: webserver
+username: senac
+senha padrão: 123@senac
+
+habilitar SSH - acesso remoto
+
+-------------------------------------------------------
+
+comandos WEBSERVER
+
+desligar o webserver
+//sudo poweroff
+
+-------------------------------------------------------
+
+	TERMINAL no ubuntu
+//ping 172.16.10.20
+	configurando o webserver (pelo pc)
+//ssh senac@172.16.10.20
+//yes
+//123@senac (senha)
+//sudo apt update
+//sudo apt upgrade
+//sudo apt full-upgrade
+//sudo apt autoremove
+//sudo apt autoclean
+//exit
+
+//	no webserver
+//sudo reboot
+
+//	criar snapshot
+//AntesDasConfigurações
+//Antes das configurações
